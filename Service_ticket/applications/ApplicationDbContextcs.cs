@@ -8,6 +8,6 @@ public class ApplicationDbContext : DbContext
         : base(options)
     {
     }
+   
 
-    public DbSet<Ticket> Tickets { get; set; }
 }

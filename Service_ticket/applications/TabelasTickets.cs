@@ -1,10 +1,14 @@
 ﻿namespace Service_ticket.applications;
 
-public class TabelasTickets
+public class Tableticket
 {
-    public int Id { get; set; }
-    public string Assunto { get; set; }
-    public string Mensagem { get; set; }
-    public string Status { get; set; }
-    public DateTime DataCriacao { get; set; }
+    List<Tableticket> TabelaTickets { get; set; }
+
+    public void addTickets()
+    {
+        var Addtable = new Tableticket();
+        var assunto = Console.ReadLine();
+
+    }
+
 }
